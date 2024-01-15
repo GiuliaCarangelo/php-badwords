@@ -10,7 +10,7 @@ echo str_replace($_GET["censoredWord"],"***",$paragr);
 
 <form action="./index.php" method="GET">
     <label for="wordToCensor">Type the word to censor:</label>
-    <input type="text" name="censoredWord" id="censoredWord">
+    <input type="text" placeholder="Type here" name="censoredWord" id="censoredWord">
     <button type="submit">Censor</button>
 </form>
 
